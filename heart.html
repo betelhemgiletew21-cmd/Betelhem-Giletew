@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heart Disease Awareness</title>
+    <link rel="stylesheet" href="heart.css">
+</head>
+<body>
+
+<header>
+    <h1>❤️ Heart Disease Awareness</h1>
+</header>
+
+<section class="project-section">
+    <h2>What is Heart Disease?</h2>
+    <img src= "image/heart1.jpg"alt="Heart diagram">
+    <p>
+       
+       <ul>
+        
+        <li> ❤️Heart disease is a general term used to describe conditions that affect the structure and function of the heart.</li>
+        <li>The heart is an important organ that pumps blood throughout the body, supplying oxygen and nutrients to tissues and organs. When the heart is affected by disease, it may not pump blood efficiently, which can affect the normal functioning of the body. 
+        <hr> <li>Heart disease can involve problems with the heart muscle, blood vessels, valves, or the electrical system that controls the heartbeat.</li> <li>These problems may develop slowly over a long period of time and can be caused by factors such as aging, lifestyle, infections, or genetic conditions. </li>
+        Heart disease is one of the most common health problems affecting adults around the world.
+    </ul>
+    </p>
+
+</section>
+
+<section class="project-section">
+    <h2>Causes</h2>
+    <img src="image/heart2.jpg" alt="Heart risk factors">
+    <ul>
+        <li>High blood pressure</li>
+        <li>High cholesterol</li>
+        <li>Smoking</li>
+        <li>Obesity</li>
+        <li>Diabetes</li>
+    </ul>
+</section>
+
+<section class="project-section">
+    <h2>Symptoms</h2>
+    <img src="image/heart3.jpg" alt="Heart symptoms">
+    <ul>
+        <li>Chest pain or discomfort</li>
+        <li>Shortness of breath</li>
+        <li>Fatigue</li>
+        <li>Irregular heartbeat</li>
+    </ul>
+</section>
+
+<section class="project-section">
+    <h2>Prevention</h2>
+    <img src="image/heart4.jpg" alt="prevention">
+    <ul>
+        <li>Eat a healthy diet</li>
+        <li>Exercise regularly</li>
+        <li>Avoid smoking</li>
+        <li>Manage stress</li>
+        <li>Regular medical check-ups</li>
+    </ul>
+</section>
+
+<section class="project-section">
+    <h2>Did You Know?</h2>
+    <button id="factBtn">Click for a Heart Fact</button>
+    <p id="fact"></p>
+</section>
+
+<script>
+    const facts = [
+        "Heart disease is the leading cause of death worldwide.",
+        "Regular exercise can reduce heart disease risk by up to 40%.",
+        "Smoking doubles the risk of heart disease.",
+        "Eating a healthy diet helps prevent heart problems."
+    ];
+
+    document.getElementById("factBtn").addEventListener("click", () => {
+        const randomFact = facts[Math.floor(Math.random() * facts.length)];
+        document.getElementById("fact").textContent = randomFact;
+    });
+</script>
+
+</body>
+</html>

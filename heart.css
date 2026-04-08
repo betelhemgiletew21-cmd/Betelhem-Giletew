@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1f1c1c;
+    color: white;
+    text-align: left;
+}
+
+.project-section {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background: #1e2027;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.project-section h2 {
+    color: #00ffff;
+    margin-bottom: 20px;
+}
+
+ .project-section p,
+.project-section ul {
+    color: rgb(247, 246, 246);
+    text-align: left;
+    font-size: 18px;
+}
+
+.project-section img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#fact {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button#factBtn {
+    padding: 10px 20px;
+    background: #00ffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button#factBtn:hover {
+    background: rgb(141, 15, 15);
+    color: rgb(29, 23, 23);
+}

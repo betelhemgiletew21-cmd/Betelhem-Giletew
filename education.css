@@ -1,0 +1,78 @@
+.education {
+  padding: 80px 10%;
+  background: #212224;
+  text-align: center;
+}
+
+/* TITLES */
+.education h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #00ffff;
+}
+
+
+/* EDUCATION CARDS */
+.edu-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.edu-card {
+  background: #ebedf0;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.edu-card h3 {
+  margin-bottom: 10px;
+}
+
+.edu-card p {
+  color: #7f8997;
+}
+
+.edu-card span {
+  font-size: 0.8rem;
+  color: #38bdf8;
+}
+
+/* HOVER */
+.edu-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(56,189,248,0.3);
+}
+
+/* CERTIFICATES */
+.cert-title {
+  margin-top: 60px;
+}
+
+.cert-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cert-card {
+  width: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.cert-card img {
+  width: 100%;
+  display: block;
+}
+
+/* HOVER EFFECT */
+.cert-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
